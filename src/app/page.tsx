@@ -71,14 +71,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#071a14] text-emerald-50">
-      <div className="border-b border-emerald-800/80 bg-emerald-950/80">
-        <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3 px-6 py-2 text-xs text-emerald-100/90 md:text-sm">
-          <p>Locally owned in Blackburn, VIC</p>
-          <p>Licensed and insured garden professionals</p>
-          <p>Fast response, reliable scheduling</p>
-        </div>
-      </div>
-
       <header className="sticky top-0 z-20 border-b border-emerald-800/80 bg-[#071a14]/95 backdrop-blur">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
           <p className="text-lg font-semibold tracking-wide text-white">SMT Gardening</p>
@@ -109,12 +101,12 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-18 md:grid-cols-2 md:py-24">
+        <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
           <div className="space-y-6">
             <p className="inline-block rounded-full border border-emerald-700/80 bg-emerald-900/40 px-3 py-1 text-sm text-emerald-100">
               Professional gardening services across Melbourne&apos;s eastern suburbs
             </p>
-            <h1 className="text-4xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
+            <h1 className="text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl md:text-6xl">
               Save Time, Enjoy a Better Garden
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-emerald-100/90">
@@ -134,17 +126,17 @@ export default function Home() {
                 View Services
               </a>
             </div>
-            <div className="grid grid-cols-3 gap-4 pt-4 text-sm text-emerald-100/95">
-              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-3">
-                <span className="block text-2xl font-bold text-[#d5ff45]">Melbourne</span>
+            <div className="grid grid-cols-1 gap-3 pt-4 text-sm text-emerald-100/95 sm:grid-cols-3 sm:gap-4">
+              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-4">
+                <span className="block text-xl font-bold text-[#d5ff45] sm:text-2xl">Melbourne</span>
                 Service area
               </p>
-              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-3">
-                <span className="block text-2xl font-bold text-[#d5ff45]">Blackburn</span>
+              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-4">
+                <span className="block text-xl font-bold text-[#d5ff45] sm:text-2xl">Blackburn</span>
                 Local base
               </p>
-              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-3">
-                <span className="block text-2xl font-bold text-[#d5ff45]">Fast</span>
+              <p className="rounded-2xl border border-emerald-800/80 bg-emerald-900/35 p-4">
+                <span className="block text-xl font-bold text-[#d5ff45] sm:text-2xl">Fast</span>
                 Quote response
               </p>
             </div>
