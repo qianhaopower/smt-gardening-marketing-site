@@ -59,13 +59,13 @@ export default function Home() {
   const transformations = [
     {
       title: "Front Yard Refresh",
-      before: "/before-front-yard.jpg",
-      after: "/after-front-yard.jpg",
+      before: "/before-front-yard.png",
+      after: "/after-front-yard.png",
     },
     {
       title: "Backyard Cleanup",
-      before: "/before-backyard.jpg",
-      after: "/after-backyard.jpg",
+      before: "/before-backyard.png",
+      after: "/after-backyard.png",
     },
   ];
 
