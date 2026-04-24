@@ -1,0 +1,10 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#86EFAC"/>
+  <rect y="500" width="1200" height="300" fill="#4ADE80"/>
+  <path d="M0 530C180 500 280 580 450 540C650 490 790 590 1020 530C1100 510 1150 510 1200 520V800H0V530Z" fill="#22C55E"/>
+  <path d="M0 560H1200" stroke="#16A34A" stroke-width="6" stroke-dasharray="18 18"/>
+  <path d="M0 600H1200" stroke="#16A34A" stroke-width="6" stroke-dasharray="18 18"/>
+  <path d="M0 640H1200" stroke="#16A34A" stroke-width="6" stroke-dasharray="18 18"/>
+  <rect x="80" y="120" width="320" height="160" rx="20" fill="#14532D" fill-opacity="0.8"/>
+  <text x="130" y="220" fill="#ECFDF5" font-family="Arial, sans-serif" font-size="70" font-weight="700">After</text>
+</svg>
